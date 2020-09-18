@@ -36,10 +36,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  QuadCntrl.msg
-  QuadAttCmd.msg
-  QuadGoal.msg
-  QuadMode.msg
+  ControlLog.msg
+  AttitudeCommand.msg
+  Goal.msg
   QuadFlightMode.msg
   State.msg
   CommAge.msg
