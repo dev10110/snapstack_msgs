@@ -4,7 +4,7 @@
 Header header
 
 # Current time-slice of desired trajectory
-geometry_msgs/Vector3 p # position
+geometry_msgs/Point p # position
 geometry_msgs/Vector3 v # velocity
 geometry_msgs/Vector3 a # acceleration
 geometry_msgs/Vector3 j # jerk
