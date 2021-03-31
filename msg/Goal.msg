@@ -9,14 +9,11 @@ geometry_msgs/Vector3 v # velocity
 geometry_msgs/Vector3 a # acceleration
 geometry_msgs/Vector3 j # jerk
 
-float64 yaw # heading / yaw angle
-float64 dyaw # d/dt{unrolled, unpitched body heading w.r.t world}
-# n.b., recall that dyaw = d/dt{psi} != r. Angular heading rate r is defined in
-# the body frame, but yaw is the heading of the local level frame w.r.t world.
-# For slow, nearly-level flight, dyaw ~= r. For more agile flight, it will
-# be useful to make sure you are commanding the correct quantity.
-# See, e.g., eq (7) and (8) in 
-# https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=2324&context=facpub
+float64 psi # angle as defined in Sec. III of https://arxiv.org/pdf/2103.06372.pdf  
+# In general, it is will not be the rXYZ yaw Euler angle of the UAV (unless the drone is in a hover condition).
+# This is due to the fact that q_psi (see link above) already has some rXYZ yaw on it.
+# See also the paper https://link.springer.com/chapter/10.1007/978-3-030-28619-4_20
+float64 dpsi #d{psi}/dt
 
 bool power # true if motors should be able to spin
 
