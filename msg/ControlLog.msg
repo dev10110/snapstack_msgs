@@ -32,8 +32,6 @@ geometry_msgs/Vector3 w
 geometry_msgs/Vector3 w_ref
 
 geometry_msgs/Vector3 F_W # Desired total force [N], expressed in world
-float64 thrust   # total desired force [N]
-float64 throttle # percent throttle sent to each motor
 
 bool power # true if motors should be able to spin
 
