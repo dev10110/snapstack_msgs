@@ -1,6 +1,6 @@
 Header header
 time state_stamp
-geometry_msgs/Vector3 pos
+geometry_msgs/Point pos
 geometry_msgs/Vector3 vel
 geometry_msgs/Quaternion quat
 geometry_msgs/Vector3 w
