@@ -9,3 +9,5 @@ geometry_msgs/Vector3 w_err
 
 geometry_msgs/Vector3 s
 geometry_msgs/Vector3 integrator
+
+geometry_msgs/Vector3 Omegad
