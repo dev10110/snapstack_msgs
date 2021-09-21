@@ -11,4 +11,4 @@ geometry_msgs/Vector3 s
 geometry_msgs/Vector3 integrator
 
 geometry_msgs/Vector3 Omegad
-getomery_msgs/Vector3 Omega_dot
+geometry_msgs/Vector3 Omega_dot
