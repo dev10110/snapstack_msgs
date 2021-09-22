@@ -35,4 +35,15 @@ geometry_msgs/Vector3 F_W # Desired total force [N], expressed in world
 
 bool power # true if motors should be able to spin
 
+# a, b, c term used in outer loop
+
+float64 a
+float64 b
+float64 c
+float64 adot
+float64 bdot
+float64 cdot
+float64 psi
+float64 psidot
+
 # TODO: add outer (and inner?) parameters
