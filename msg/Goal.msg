@@ -8,6 +8,7 @@ geometry_msgs/Point p # position
 geometry_msgs/Vector3 v # velocity
 geometry_msgs/Vector3 a # acceleration
 geometry_msgs/Vector3 j # jerk
+geometry_msgs/Vector3 s # snap
 
 float64 psi # angle as defined in Sec. III of https://arxiv.org/pdf/2103.06372.pdf  
 # In general, it is will not be the rXYZ yaw Euler angle of the UAV (unless the drone is in a hover condition).

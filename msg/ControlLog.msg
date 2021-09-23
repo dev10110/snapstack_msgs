@@ -21,6 +21,9 @@ geometry_msgs/Vector3 a_fb
 geometry_msgs/Vector3 j_ff
 geometry_msgs/Vector3 j_fb
 
+# snap signals
+geometry_msgs/Vector3 s
+
 # attitude signals
 geometry_msgs/Quaternion q
 geometry_msgs/Quaternion q_ref
