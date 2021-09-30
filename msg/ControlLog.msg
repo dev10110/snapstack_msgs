@@ -34,7 +34,6 @@ geometry_msgs/Vector3 rpy_ref
 # angular rate signals
 geometry_msgs/Vector3 w
 geometry_msgs/Vector3 w_ref
-geometry_msgs/Vector3 wdot
 geometry_msgs/Vector3 wdot_ref
 
 geometry_msgs/Vector3 F_W # Desired total force [N], expressed in world
