@@ -15,6 +15,7 @@ float64 psi # angle as defined in Sec. III of https://arxiv.org/pdf/2103.06372.p
 # This is due to the fact that q_psi (see link above) already has some rXYZ yaw on it.
 # See also the paper https://link.springer.com/chapter/10.1007/978-3-030-28619-4_20
 float64 dpsi #d{psi}/dt
+float64 ddpsi #d^2{psi}/dt^2 for Omegad_dot 
 
 bool power # true if motors should be able to spin
 

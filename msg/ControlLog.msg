@@ -22,7 +22,8 @@ geometry_msgs/Vector3 j_ff
 geometry_msgs/Vector3 j_fb
 
 # snap signals
-geometry_msgs/Vector3 s
+geometry_msgs/Vector3 s_ff
+geometry_msgs/Vector3 s_fb
 
 # attitude signals
 geometry_msgs/Quaternion q
@@ -33,6 +34,8 @@ geometry_msgs/Vector3 rpy_ref
 # angular rate signals
 geometry_msgs/Vector3 w
 geometry_msgs/Vector3 w_ref
+geometry_msgs/Vector3 wdot
+geometry_msgs/Vector3 wdot_ref
 
 geometry_msgs/Vector3 F_W # Desired total force [N], expressed in world
 
@@ -48,5 +51,6 @@ float64 bdot
 float64 cdot
 float64 psi
 float64 psidot
+float64 psidotdot
 
 # TODO: add outer (and inner?) parameters
