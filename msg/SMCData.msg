@@ -15,4 +15,4 @@ geometry_msgs/Vector3 Omegad_dot
 geometry_msgs/Vector3 eR
 geometry_msgs/Vector3 eOmega
 geometry_msgs/Vector3 M
-geometry_msgs/Vector3 T
+float64 T
