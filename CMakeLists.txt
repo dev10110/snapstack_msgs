@@ -42,6 +42,7 @@ add_message_files(
   QuadFlightMode.msg
   State.msg
   CommAge.msg
+  CommDelay.msg
   IMU.msg
   SMCData.msg
   Motors.msg
