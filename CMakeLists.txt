@@ -46,6 +46,7 @@ add_message_files(
   SMCData.msg
   Motors.msg
   VioFilterState.msg
+  TimeFilter.msg
 )
 
 ## Generate services in the 'srv' folder
