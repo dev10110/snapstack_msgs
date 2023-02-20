@@ -39,6 +39,7 @@ add_message_files(
   ControlLog.msg
   AttitudeCommand.msg
   Goal.msg
+  GoalTrajectory.msg
   QuadFlightMode.msg
   State.msg
   CommAge.msg
